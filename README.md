@@ -72,3 +72,8 @@ static const FirebaseOptions ios = FirebaseOptions(
    ```bash
    flutter run
    ```
+
+'''
+## 🎬 시연 영상
+
+[사회적 약자 보행자 네비게이션 시연 영상 보기](https://youtu.be/HOOW6AdT450)
