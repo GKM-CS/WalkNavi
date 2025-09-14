@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228157265795",
+    "project_id": "gh-navi",
+    "storage_bucket": "gh-navi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228157265795:android:360cfb5d37ce6982d6c8b6",
+        "android_client_info": {
+          "package_name": "com.example.ghnavi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJCuGjVMZAFuDevGbOJFBjyaTEQ1LFXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
