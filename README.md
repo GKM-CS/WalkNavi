@@ -1,16 +1,41 @@
-# ghnavi
+# 보행자 네비게이션
 
-A new Flutter project.
+필요 API키 : Firebase APi, Google Maps ApI, TMap Api 키 필요
 
-## Getting Started
+navi_main.dart에서 
+class RouteScreenState extends State<RouteScreen> {
+  final String apiKey = 'Tmap API';
+  final TextEditingController startController = TextEditingController();
+  final TextEditingController endController = TextEditingController();
 
-This project is a starting point for a Flutter application.
+---> Tmap API키를 수정해주세요
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+star_screen.dart에서
+class _PlaceRatingScreenState extends State<PlaceRatingScreen> {
+  final String api = 'Google Mpas API';
+  final TextEditingController _placeController = TextEditingController();
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---> Google Maps API키를 수정해주세요
+
+
+firebase_options.dart에서
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'Firebase ApiKey',
+    appId: 'Firebase AppId',
+    messagingSenderId: '228157265795',
+    projectId: 'gh-navi',
+    storageBucket: 'gh-navi.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'Firebase ApiKey',
+    appId: 'Firebase AppId',
+    messagingSenderId: '228157265795',
+    projectId: 'gh-navi',
+    storageBucket: 'gh-navi.appspot.com',
+    iosBundleId: 'com.example.ghnavi',
+  );
+}
+
+---> FIrebase ApiKey 와 AppId를 수정해주세요

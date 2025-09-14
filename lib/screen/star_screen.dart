@@ -14,7 +14,7 @@ class PlaceRatingScreen extends StatefulWidget {
 }
 
 class _PlaceRatingScreenState extends State<PlaceRatingScreen> {
-  final String api = 'AIzaSyAqDK2UZ1Ukalop_kkz1kuXbfGxCvZT_-s';
+  final String api = 'Google Mpas API';
   final TextEditingController _placeController = TextEditingController();
   GoogleMapController? _mapController;
   String? _placeName;
