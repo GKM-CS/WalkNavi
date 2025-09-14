@@ -50,19 +50,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDFJCuGjVMZAFuDevGbOJFBjyaTEQ1LFXo',
-    appId: '1:228157265795:android:360cfb5d37ce6982d6c8b6',
-    messagingSenderId: '228157265795',
-    projectId: 'gh-navi',
-    storageBucket: 'gh-navi.appspot.com',
+    apiKey: 'YOUR_FIREBASE_API_KEY', 
+    appId: 'YOUR_FIREBASE_APP_ID',   
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDSuk-HS8D1E8kqFWfeMSYZBdQMXbwSg9o',
-    appId: '1:228157265795:ios:9113581d5e0ab945d6c8b6',
-    messagingSenderId: '228157265795',
-    projectId: 'gh-navi',
-    storageBucket: 'gh-navi.appspot.com',
-    iosBundleId: 'com.example.ghnavi',
+    apiKey: 'YOUR_FIREBASE_API_KEY',
+    appId: 'YOUR_FIREBASE_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 }
